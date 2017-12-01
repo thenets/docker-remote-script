@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Check if $SCRIPT_PATH exists
 if [[ -z "${SCRIPT_PATH}" ]]; then
