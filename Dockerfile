@@ -11,4 +11,5 @@ RUN apt-get update && \
     
 # Set entrypoint file
 ADD /entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
